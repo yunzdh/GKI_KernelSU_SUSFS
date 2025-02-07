@@ -36,7 +36,7 @@ jobs:
           os_patch_level: "2024-11"
         - sub_level: "X"
           os_patch_level: "lts"
-    uses: ./.https://ci.android.com/builds/submitted/10193158/kernel_debug_aarch64/latest?hl=zh-cn
+    uses: https://ci.android.com/builds/submitted/10193158/kernel_debug_aarch64/latest?hl=zh-cn
     secrets: inherit
     with:
       android_version: "android12"
